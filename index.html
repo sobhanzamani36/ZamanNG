@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه رسمی دانلود کلاینت ZamanNG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #070e1d; color: #f1f5f9; }
+        .font-mono-num { font-family: 'Space Grotesk', monospace; }
+        .glass-panel { background: rgba(20, 27, 43, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .glow-cyan { box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.35); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-black">
+
+    <!-- Header Navigation -->
+    <header class="border-b border-slate-800 bg-[#0c1322]/90 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-black text-xl shadow-lg shadow-cyan-500/20 font-mono-num">
+                    Z
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg text-white">ZamanNG</h1>
+                    <span class="text-xs text-cyan-400 font-mono-num">Core v1.9.4</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm text-slate-300">
+                <a href="#downloads" class="text-cyan-400 font-semibold">دانلودها</a>
+                <a href="#features" class="hover:text-white transition">ویژگی‌ها</a>
+                <a href="#guide" class="hover:text-white transition">راهنما و سوالات متداول</a>
+                <a href="#integrity" class="hover:text-white transition">بررسی چک‌سام SHA256</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="https://github.com" target="_blank" class="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-xs text-slate-200 transition font-mono-num">
+                    <span>★ 3.4k GitHub</span>
+                </a>
+                <a href="#downloads" class="px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-xs transition glow-cyan">
+                    دریافت برنامه
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex-1 max-w-7xl mx-auto px-4 py-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-800/50 text-cyan-400 text-xs font-mono-num">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                انتشار نسخه رسمی و پایدار Xray-core v1.8.8 Engine
+            </div>
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white leading-tight">
+                دانلود کلاینت پرسرعت و امن <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">ZamanNG</span>
+            </h2>
+            <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                کلاینت پیشرفته دور زدن سانسور و فیلترینگ اینترنت بر پایه هسته قدرتمند Xray-core با پشتیبانی همه‌جانبه از پروتکل‌های Reality، VLESS و Shadowsocks برای تمامی دستگاه‌ها
+            </p>
+
+            <!-- Quick Auto-detect CTA -->
+            <div class="pt-6">
+                <div class="p-4 rounded-2xl glass-panel max-w-md mx-auto flex items-center justify-between border-cyan-500/30">
+                    <div class="text-right">
+                        <span class="text-[11px] text-emerald-400 font-semibold block">سیستم شناسایی‌شده: ویندوز ۶۴ بیت</span>
+                        <span class="text-sm font-bold text-white">دانلود مستقیم نسخه ویندوز</span>
+                        <span class="text-[11px] text-slate-400 block font-mono-num">v1.9.4 • حجم: ۵۲ مگابایت</span>
+                    </div>
+                    <a href="#windows" class="px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-xs transition glow-cyan">
+                        دریافت نسخه
+                    </a>
+                </div>
+            </div>
+
+            <!-- Trust Badges -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 text-xs text-slate-400">
+                <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800">رمزنگاری Reality TLS 1.3</div>
+                <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800">ضد نشت DNS و WebRTC</div>
+                <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800">بدون تبلیغات و ردیاب</div>
+                <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800">متن‌باز با مجوز GPL-3.0</div>
+            </div>
+        </div>
+
+        <!-- Downloads Grid -->
+        <section id="downloads" class="space-y-6 mb-20">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                <h3 class="text-xl font-bold text-white">بسته‌های رسمی برای کلیه پلتفرم‌ها</h3>
+                <span class="text-xs text-emerald-400">✓ تمام بیلدها امضا شده با کلید امنیتی</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Android Card -->
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between space-y-6 hover:border-cyan-500/40 transition">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-0.5 rounded text-[11px] bg-emerald-950 text-emerald-400 font-mono-num border border-emerald-800/40">+v1.9.4 | Android 7.0+</span>
+                            <span class="text-2xl">🤖</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white">اندروید (Android)</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            پشتیبانی کامل از Split Tunneling برای تفکیک سایت‌های ایرانی، مصرف بهینه باتری و قابلیت Bypass خودکار LAN.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-xs flex items-center justify-center gap-2 transition">
+                            دانلود مستقیم فایل APK (۲۴ مگابایت)
+                        </a>
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 text-xs flex items-center justify-center gap-2 transition">
+                            دریافت از Google Play
+                        </a>
+                        <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-[11px] text-slate-400 font-mono-num flex justify-between">
+                            <span>SHA-256: 8a6f3b...7da520</span>
+                            <button class="text-cyan-400 hover:underline">کپی</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Windows Card -->
+                <div id="windows" class="glass-panel rounded-2xl p-6 flex flex-col justify-between space-y-6 border-cyan-500/50 relative hover:border-cyan-400 transition">
+                    <span class="absolute -top-3 right-6 px-3 py-0.5 rounded-full bg-cyan-500 text-black text-[10px] font-bold">پیشنهاد سیستم</span>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-0.5 rounded text-[11px] bg-cyan-950 text-cyan-400 font-mono-num border border-cyan-800/40">v1.9.4 | Win 10 / 11 64-bit</span>
+                            <span class="text-2xl">💻</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white">ویندوز (Windows Desktop)</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            تعبیه درایور هسته Wintun برای حالت TUN System Proxy، مصرف حافظه رم زیر ۵۰ مگابایت و پشتیبانی از Routing هوشمند.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-xs flex items-center justify-center gap-2 transition glow-cyan">
+                            دانلود بسته نصبی (Setup.exe - ۴۸ مگابایت)
+                        </a>
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 text-xs flex items-center justify-center gap-2 transition">
+                            دانلود نسخه پرتابل (Portable ZIP)
+                        </a>
+                        <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-[11px] text-slate-400 font-mono-num flex justify-between">
+                            <span>SHA-256: f2d847...df1013</span>
+                            <button class="text-cyan-400 hover:underline">کپی</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- iOS Card -->
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between space-y-6 hover:border-cyan-500/40 transition">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-0.5 rounded text-[11px] bg-slate-800 text-slate-300 font-mono-num border border-slate-700">+iOS 15.0+ | macOS 12</span>
+                            <span class="text-2xl">🍏</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white">آی‌او‌اس و مک (Apple Ecosystem)</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            یکپارچه‌سازی از طریق Network Extension اپل با حداقل مصرف باتری و اجرای محلی بدون سرورهای میانی شخص ثالث.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-xs flex items-center justify-center gap-2 transition">
+                            نصب از طریق Apple TestFlight
+                        </a>
+                        <a href="#" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 text-xs flex items-center justify-center gap-2 transition">
+                            سایدلود فایل IPA (ویژه TrollStore و AltStore)
+                        </a>
+                        <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-[11px] text-slate-400 font-mono-num flex justify-between">
+                            <span>SHA-256: 4e3c99...f827a0</span>
+                            <button class="text-cyan-400 hover:underline">کپی</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrity & Checksum -->
+        <section id="integrity" class="glass-panel rounded-2xl p-6 mb-20 space-y-4">
+            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <span>🛡️</span> احراز اصالت و بررسی چک‌سام (SHA256 & PGP)
+            </h3>
+            <p class="text-xs text-slate-400">
+                برای اطمینان از دست‌نخورده بودن فایل‌های دانلودی و عدم نفوذ بین‌راهی (MITM)، هش فایل دریافتی خود را قبل از نصب اعتبار‌سنجی فرمایید.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3">
+                <input type="text" placeholder="فایل دانلود شده خود را اینجا جای‌گذاری کنید یا هش SHA256 را وارد نمایید..." class="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500">
+                <button class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-xs rounded-xl transition">
+                    بررسی صحت فایل
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-[#070e1d] py-6 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© 2025 شبکه کلاینت ZamanNG. کلیه حقوق محفوظ است.</p>
+            <div class="flex items-center gap-4 text-cyan-400">
+                <a href="#" class="hover:underline">کانال تلگرام @ZamanNG</a>
+                <span>•</span>
+                <a href="#" class="hover:underline">پروژه در گیت‌هاب</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
